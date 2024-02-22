@@ -3,6 +3,7 @@ import {Outlet} from 'react-router-dom';
 import './Layout.scss';
 
 import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 
 const Layout = () => {
     return (
@@ -11,7 +12,7 @@ const Layout = () => {
             <main className='app-main'>
                 <Outlet></Outlet>
             </main>
-            <footer>footer</footer>
+            <Footer/>
         </div>
     );
 };

@@ -1,0 +1,21 @@
+@import '../../styles/var.scss';
+@import '../../styles/mixins.scss';
+
+.app-footer {
+    height: 90px;
+    margin-top: 5em;
+    background-color: $primary-color;
+    .container{
+        justify-content: center;
+        align-items: center;
+        height: 100%
+    }
+        .app-footer_link{
+            justify-content: center;
+            align-items: center;
+            @include text(1.1em, normal, 500, $primary-color-txt);
+        }
+        &:hover{
+            color: $primary-color-light
+        }
+}

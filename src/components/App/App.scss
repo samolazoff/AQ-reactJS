@@ -17,3 +17,11 @@ li{
 button{
     border: none;
 }
+a,
+a:focus,
+a:hover,
+a:active{
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+}
