@@ -1,4 +1,13 @@
 {
+    "header": {
+        "presentation": {
+            "title": "\"ALFA QUALITY\" LLC",
+            "subtitle": [
+                "220017, Minsk, Prytytsky str., 146, room 208",
+                "tel./fax: +375 (17) 232-13-13, e-mail: alfaquality@ya.ru"
+            ]
+        }
+    },
     "footer": [
         "ALFA QUALITY LLC"
     ]
