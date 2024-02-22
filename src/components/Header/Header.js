@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Header.scss';
 
 import Burger from '../Burger/Burger';
@@ -15,9 +17,9 @@ const Header = () => {
             </div>
             <div className="app-header-content container">
                 <h1 className='app-logo'>
-                    <a href="/">
+                    <Link to="/">
                         <img className='app-logo__img' src={logo} alt="Logo_AQ"/>
-                    </a>
+                    </Link>
                 </h1>
                 <div className="app-nav flex-r">
                     <Burger/>
