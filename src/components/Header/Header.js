@@ -13,12 +13,12 @@ const Header = () => {
                 <div className="bgc-header_light"></div>
                 <div className="bgc-header_dark"></div>
             </div>
-            <h1 className='app-logo'>
-                <a href="/">
-                    <img className='app-logo__img' src={logo} alt="Logo_AQ"/>
-                </a>
-            </h1>
             <div className="app-header-content container">
+                <h1 className='app-logo'>
+                    <a href="/">
+                        <img className='app-logo__img' src={logo} alt="Logo_AQ"/>
+                    </a>
+                </h1>
                 <div className="app-nav flex-r">
                     <Burger/>
                     <Navbar/>
