@@ -1,0 +1,22 @@
+@import '../../styles/var.scss';
+
+.lang-panel{
+    &-items{
+        height: 80px;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+    }
+    &_item{
+        cursor: pointer;
+    }
+}
+.btn-lang{
+    background-color: $primary-color-dark;
+    color: $primary-color-txt;
+    padding: 5px;
+    border-radius: 5px;
+    &:hover{
+        color: $primary-color-light
+    }
+}
