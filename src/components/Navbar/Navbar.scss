@@ -1,0 +1,20 @@
+@import '../../styles/var.scss';
+@import '../../styles/mixins.scss';
+
+.app-nav{
+    width: 100%;
+    &-items{
+        margin: 0 50px;
+        height: 80px;
+        justify-content: flex-end;
+        align-items:center;
+        gap: 20px;
+    }
+    &__item{
+        @include text(1.1em, normal, normal, $primary-color-txt);
+        text-transform: uppercase;
+        &:hover{
+            color: $primary-color-light
+        }
+    }
+}
