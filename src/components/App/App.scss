@@ -1,6 +1,9 @@
+@import '../../styles/var.scss';
+@import '../../styles/mixins.scss';
+
 .container{
     margin: 0 auto;
-    width: 1440px;
+    max-width: 1440px;
 }
 .flex-r{
     display: flex;
@@ -24,4 +27,11 @@ a:active{
     text-decoration: none;
     color: inherit;
     background-color: inherit;
+}
+.title-block{
+    width: 80%;
+    margin-bottom: 1em;
+    border-bottom: 2px solid;
+    @include text(3em, normal, 600, $primary-color);
+    text-transform:  capitalize;
 }
