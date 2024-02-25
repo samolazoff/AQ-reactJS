@@ -2,6 +2,8 @@ import { useSelector } from 'react-redux';
 
 import './About.scss';
 
+import SliderAbout from '../SliderAbout/SliderAbout';
+
 const About = () => {
     const text = useSelector((state) => state.lang.text.pages.main);
     return (
@@ -16,7 +18,7 @@ const About = () => {
                     </p>
                 ))
             }
-            <div className="slider">slider</div>
+            <SliderAbout/>
         </section>
     );
 };
