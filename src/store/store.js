@@ -1,10 +1,12 @@
 import {configureStore} from '@reduxjs/toolkit';
 
 import langSlice from './slices/langSlice';
+import burgerSlice from './slices/burgerSlice';
 
 export const store = configureStore({
     reducer: {
-        lang: langSlice
+        lang: langSlice,
+        burger: burgerSlice
     },
     devTools: true
 });
