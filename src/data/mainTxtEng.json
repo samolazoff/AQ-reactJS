@@ -1,4 +1,7 @@
 {
+    "common": {
+        "btnMore": "more"
+    },
     "header": {
         "presentation": {
             "title": "\"ALFA QUALITY\" LLC",
@@ -25,6 +28,12 @@
             "discript": [
                 "Alfa Quality was registered with the Minsk City Executive Committee in 2015. Our specialization is in the field of industrial safety.",
                 "We use the latest techniques and advanced technologies, provide high quality work at reasonable prices."
+            ],
+            "aboutSlider": [
+                "Non-destructive testing of technical devices for various purposes",
+                "Technical diagnostics of technical devices used at hazardous production facilities",
+                "Calculations of the resource of further operation of technological equipment",
+                "High-quality provision of services"
             ]
         }
     }
