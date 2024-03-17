@@ -5,6 +5,7 @@ import'./Footer.scss';
 
 const Footer = () => {
     const footerTxt = useSelector((state) => state.lang.text.footer);
+
     return (
         <footer className="app-footer">
             <div className="container flex-c">

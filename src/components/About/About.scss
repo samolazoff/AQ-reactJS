@@ -2,6 +2,7 @@
 @import '../../styles/mixins.scss';
 
 .app-main-page-about{
+    position: relative;
     max-width: 992px;
     &-discript{
         width: 80%;

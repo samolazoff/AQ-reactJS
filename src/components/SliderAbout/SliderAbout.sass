@@ -1,0 +1,43 @@
+@import '../../styles/var'
+@import '../../styles/mixins'
+
+.slider
+	justify-content: center
+	align-items: center
+	height: 400px
+	width: 80%
+	box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2)
+	border-radius: 25px
+.slide__item
+	justify-content: space-between
+	align-items: center
+	gap: 20px
+	height: 300px
+	padding: 20px
+	border-radius: 25px
+.slide__img
+	img
+		width: 300px
+		border-radius: 25px
+.slide__content
+	justify-content: center
+	align-items: center
+	gap: 50px
+	height: 100%
+	text-align: center
+	@include text(1.2em, normal, 400, $primary-color-text-dark)
+.slide__button
+	display: inline-flex
+	width: 150px
+	background-image: linear-gradient(147deg, $primary-color-light 0%, $primary-color 74%)
+	padding: 15px 35px
+	border-radius: 50px
+	color: $primary-color-txt
+	box-shadow: 0px 14px 80px $primary-color-light
+	text-decoration: none
+	font-weight: 500
+	justify-content: center
+	text-align: center
+	letter-spacing: 1px
+	&:hover
+		background-color: $primary-color-dark

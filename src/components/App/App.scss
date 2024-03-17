@@ -1,8 +1,6 @@
 @import '../../styles/var.scss';
 @import '../../styles/mixins.scss';
-body{
-    background-color: #f2f2f2;
-}
+
 .container{
     margin: 0 auto;
     max-width: 1440px;
@@ -36,4 +34,7 @@ a:active{
     border-bottom: 2px solid;
     @include text(3em, normal, 600, $primary-color);
     text-transform:  capitalize;
+}
+.d-none{
+    display: none;
 }
