@@ -1,0 +1,30 @@
+@import '../../styles/var.scss';
+@import '../../styles/mixins.scss';
+
+.app-news-mini{
+    &-wrap{
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-left: 20px;
+        border-left: 2px solid $primary-color;
+    }
+}
+.news-mini-item{
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    &:hover{
+        border: 2px solid $primary-color;
+    }
+    &__data{
+        @include text(1.3em, normal, 600, $primary-color-text-dark);
+    }
+    &__title{
+        @include text(1.3em, normal, normal, $primary-color-text-dark);
+    }
+}
