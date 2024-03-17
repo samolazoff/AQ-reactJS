@@ -35,6 +35,26 @@
                 "Calculations of the resource of further operation of technological equipment",
                 "High-quality provision of services"
             ]
-        }
+        },
+        "news": [
+            {
+                "title" : "Scanning tank bottoms with Floormap3D system",
+                "data" : "05.12.2022",
+                "txt" : [
+                    "We are ready to offer you a new service: scanning tank bottoms with the Floormap3D system (Silverwing UK Ltd).",
+                    "Floormap3D is a latest generation system using the magnetic flux scattering method to control the bottoms of liquid storage tanks (including tanks for oil, petroleum products, chemical products). The system takes advantage of the latest developments in magnet development and STARS technology developed by Silverwing to provide improved defect detection and sizing characteristics, as well as the ability to distinguish readings from the outer and inner sides of the bottom.",
+                    "An on-board computer with a touch screen allows for the complete collection of data on signals detected during magnetic flux scattering (MFL). The MFL readings can be viewed on an on-board computer using special data collection software or using special reporting software on a desktop computer or laptop.",
+                    "The reporting software allows you to group defects according to the degree of corrosion wear using color coding. The Floormap3D system is designed to detect defects (spot and solid corrosion), regardless of which side of the bottom they are located on. With the Floormap3D system, point damages with a thinning of about 20% of the nominal thickness can be detected and measured."
+                ]
+            },
+                {
+                "title" : "Technical diagnostics of steam and hot water pipelines",
+                "data" : "11.01.2022",
+                "txt" : [
+                    "Alfa Quality LLC has expanded the range of services provided for the technical diagnosis of technical devices used at the following hazardous production facilities:",
+                    "Steam and hot water pipelines with an operating pressure of more than 0.07MPa and a water temperature of over 115 C - elements of equipment operating under excessive pressure (assembly units) and accessories materials that withstand the effects of pressure"
+                ]
+            }
+        ]
     }
 }
