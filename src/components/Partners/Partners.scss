@@ -3,4 +3,27 @@
 
 .app-partners{
     margin-top: 50px;
+    &-wrap{
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    &-item{
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 250px;
+        padding: 10px;
+    }
+    &__img{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+    &__title{
+        text-align: center;
+        @include text(1.15em, normal, 600, $primary-color-text-dark);
+    }
 }
