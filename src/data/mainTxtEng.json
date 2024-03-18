@@ -34,7 +34,18 @@
                 "Technical diagnostics of technical devices used at hazardous production facilities",
                 "Calculations of the resource of further operation of technological equipment",
                 "High-quality provision of services"
-            ]
+            ],
+            "partners": {
+                "title": "Our partners",
+                "data": [
+                    ["bvm", "«Mogilevvtorchermet»"],
+                    ["ecogaz", "«Gazprom Transgaz Belarus» «ECOGAZ»"],
+                    ["gazprom", "« Gazprom Transgaz Belarus»"],
+                    ["mnpz", "JSC «Mozyr Refinery»"],
+                    ["nefthimpng", "Belneftekhim Concern Enterprises"],
+                    ["scitles","State Enterprise «Mozyr dairy productsy»"]
+                ]
+            }
         },
         "news": {
             "title":"News",

@@ -1,5 +1,6 @@
 import About from '../../components/About/About';
 import NewsMini from '../../components/NewsMini/NewsMini';
+import Partners from '../../components/Partners/Partners';
 
 import './Main.scss';
 
@@ -12,6 +13,7 @@ const Main = () => {
                     <NewsMini/>
                 </div>
            </section>
+           <Partners/>
         </>
     );
 };
